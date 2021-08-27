@@ -1,58 +1,54 @@
 
-.navbar-bg {
-  background-color: rgb(19, 19, 19);
+/* BODY */
+
+body {
+  background-color: rgb(243, 243, 243);
 }
 
-.navbar-padding {
-  padding-top: 0;
-  padding-bottom: 0;
+h3{
+  font-weight: 400;
 }
 
-a{
-  color: darkgrey;
-  font-size: 15px;
+.border-top-thick {
+  border-top: 2px solid darkgrey;
 }
 
-a:hover {
-  color: white;
+.border-btm-thick {
+  border-top: 2px solid darkgrey;
 }
 
-.resize-logo {
-  height: 45px;
+.title {
+  color: rgb(189, 189, 189);
+  font-size: 16px;
+  font-weight: 500;
 }
 
-.search-icon {
-  padding: 5px 8px;
+.btn-cancel{
+  background-color: lightgray;
+  color:  rgb(19, 19, 19);
+  border: none;
+  font-size: 11px;
+  padding: 8px 20px;
 }
 
-.dark-grey {
-  color: darkgrey;
+.p-absolute {
+  position: relative;
+  right: -190px;
+  float: right;
 }
 
-.nav-p {
-  font-size: 12px;
+.text-disabled {
+  color: rgb(189, 189, 189);
 }
 
-.p-kids {
-  padding: 0 8px;
+.margin-btm-6px {
+  margin-bottom: 6px;
 }
 
-.profile-img-resize {
-  width: 24px;
-  height: 24px;
+.container p {
+  font-size: 16px;
 }
 
-.btn-netflix-dark {
-  background-color: rgb(19, 19, 19);
-  color: white;
-}
-
-.btn-padding-x-none {
-  padding-left: 0;
-  padding-right: 0;
-}
-
-.padding-top-btm-0 {
-  padding-top: 0;
-  padding-bottom: 0;
+.p-8 {
+  padding-top: 8px;
 }
