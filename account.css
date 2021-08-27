@@ -1,0 +1,58 @@
+
+.navbar-bg {
+  background-color: rgb(19, 19, 19);
+}
+
+.navbar-padding {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+a{
+  color: darkgrey;
+  font-size: 15px;
+}
+
+a:hover {
+  color: white;
+}
+
+.resize-logo {
+  height: 45px;
+}
+
+.search-icon {
+  padding: 5px 8px;
+}
+
+.dark-grey {
+  color: darkgrey;
+}
+
+.nav-p {
+  font-size: 12px;
+}
+
+.p-kids {
+  padding: 0 8px;
+}
+
+.profile-img-resize {
+  width: 24px;
+  height: 24px;
+}
+
+.btn-netflix-dark {
+  background-color: rgb(19, 19, 19);
+  color: white;
+}
+
+.btn-padding-x-none {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.padding-top-btm-0 {
+  padding-top: 0;
+  padding-bottom: 0;
+}
