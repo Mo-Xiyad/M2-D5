@@ -16,12 +16,65 @@ body {
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
 }
 
 #profilePic {
-    width: 100px;
+    width: 100%;
+    border-radius: 5px;
 }
 
 hr {
     border: 1px solid white;
+}
+
+#languages {
+    height: 30px;
+    width: 100%;
+}
+
+#nameInput {
+    width: 100%;
+}
+
+#languageTitle {
+    padding-top: 10px;
+}
+
+h6 {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#maturityButton {
+    color: white;
+    background-color: darkgray;
+    width: 250px;
+}
+
+#editButton {
+    background-color: black;
+    border: 1px solid gray;
+    color: gray;
+    width: 100px;
+}
+
+#checkboxText {
+    display: inline-block;
+}
+
+#darkButton {
+    background-color: black;
+    border: 1px solid gray;
+    color: gray;
+    width: 100%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#lightButton {
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    border: none;
 }

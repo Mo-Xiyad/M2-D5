@@ -18,21 +18,60 @@
     <div class="container">
         <div class="row">
             <div class="col-12"><h1>Edit Profile</h1><hr></div>
-            <div class="col-6">
+
+            <div class="col-4 col-xs-4 col-sm-4 col-md-4 col-lg-4 col-xl-4">
                 <img class="img-fluid" id="profilePic" src="https://i.pinimg.com/236x/64/5a/97/645a97899b437f047f4f88bee2e7755c.jpg">
             </div>
-            <div class="col-6">
-                <input type="text">
-                <p>Language:</p>
-                <input type="label">
+            <div class="col-8 col-xs-8 col-sm-8 col-md-8 col-lg-8 col-xl-8">
+                <input id="nameInput" type="text">
+                <br>
+                <label for="languages">Languages</label>
+                <br>
+                <select id="languages" name="languages" size="4" multiple>
+                    <option value="English">English</option>
+                    <option value="Spanish">Spanish</option>
+                    <option value="French">French</option>
+                    <option value="Russian">Russian</option>
+                </select>
             </div>
-            <div class="col-12">Maturity Settings</div>
-            <div class="col-12">Autoplay Controls</div>
-            <div class="col-4">Save Button</div>
-            <div class="col-4">Cancel Button</div>
-            <div class="col-4">Delete Profile</div>
+
+            <div class="offset-4 col-8">
+                <hr>
+                <h6>Maturity Settings:</h6>
+                <button id="maturityButton" ><strong>ALL MATURITY RATINGS</strong></button>
+                <p>Show titles of all maturity ratings for this profile.</p>
+                <button id="editButton">EDIT</button>
+                <hr>
+            </div>
+
+            <div class="offset-4 col-8">
+                <h6>Autoplay controls:</h6>
+                <input id="checkbox" type="checkbox">
+                <p id="checkboxText">Autoplay next episode in a series on all devices.</p>
+                <br>
+                <input id="checkbox" type="checkbox">
+                <p id="checkboxText">Autoplay previews while browsing on all devices.</p>
+            </div>
+            <div class="col-12">
+                <hr>
+            </div>
+            <div class="col-4">
+                <button id="lightButton">SAVE</button>
+            </div>
+            <div class="col-4">
+                <button id="darkButton">CANCEL</button>
+            </div>
+            <div class="col-4">
+                <button id="darkButton">DELETE PROFILE</button>
+            </div>
         </div>
     </div>
+
+    <br>
+    <br>
+    <br>
+
+    <p>random text</p>
 
 
 
