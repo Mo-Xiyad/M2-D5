@@ -16,8 +16,7 @@ body {
 
 h1 {
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 40px;
-    font-weight: bold;
+    font-size: 50px;
 }
 
 #profilePic {
@@ -26,7 +25,8 @@ h1 {
 }
 
 hr {
-    border: 1px solid white;
+    border: 0.1px solid gray;
+    opacity: 20%;
 }
 
 #languages {
@@ -51,18 +51,22 @@ hr {
 
 h6 {
     font-family: Arial, Helvetica, sans-serif;
+    color: gray;
 }
 
 #maturityButton {
     color: white;
     background-color: rgba(169, 169, 169, 0.356);
-    width: 250px;
+    width: 225px;
     border: none;
     border-radius: 2px;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+    margin-top: 5px;
 }
 
 #editButton {
-    background-color: black;
+    background-color: #141414;
     border: 1px solid gray;
     color: gray;
     width: 100px;
@@ -79,12 +83,13 @@ h6 {
 }
 
 #darkButton {
-    background-color: black;
+    background-color: #141414;
     border: 1px solid gray;
     color: gray;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
     letter-spacing: 3px;
+    padding: 5px;
 }
 
 #lightButton {
@@ -94,11 +99,22 @@ h6 {
     width: 100%;
     border: none;
     letter-spacing: 3px;
+    font-weight: bold;
+    padding: 5px;
 }
 
 #languageLabel {
     position: absolute;
     bottom: 30px;
+}
+
+footer {
+    padding: 50px;
+    text-align: center;
+}
+
+p {
+    font-size: 12px;
 }
 
 
