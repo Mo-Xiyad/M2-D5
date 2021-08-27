@@ -1,3 +1,27 @@
+body {
+    background-color: black;
+    color: aliceblue;
+}
+
+#netflixLogo {
+    width: 100px;
+    text-align: left;
+}
+
+.container {
+    padding-top: 100px;
+    max-width: 50%;
+    height: 100%;
+}
+
 h1 {
-    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#profilePic {
+    width: 100px;
+}
+
+hr {
+    border: 1px solid white;
 }
