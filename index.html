@@ -14,102 +14,167 @@
 </head>
 
 <body>
+    <!-- Nav-bar Start -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
-        <img src="./01_Netflix_Logo/01_Netflix_Logo_RGB/Netflix_Logo_RGB.png" width="80" alt="">
-        <!-- <button class="navbar-toggler d-none d-lg-block" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-    <span class="navbar-toggler-icon"></span>
-  </button> -->
-
-        <div class="collapse navbar-collapse d-none d-lg-block" id="navbarSupportedContent">
-
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
-                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Series</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">Films</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">New & Popular</a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="#">My List</a>
-                </li>
-            </ul>
-            <form class="form-inline my-2 my-lg-0">
-
-                <input class="search expandright" id="searchright" type="search" name="q" placeholder="Search">
-                <label class="button searchbutton px-3" for="searchright"><svg xmlns="http://www.w3.org/2000/svg"
-                        width="15" height="15" fill="white" class="my-2 my-sm-0 mr-sm-2" aria-label="Search"
-                        viewBox="0 0 16 16">
-                        <path
-                            d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
-                    </svg></label>
-            </form>
-            <!-- <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/64623a33850498.56ba69ac2a6f7.png"
-                class="rounded" width="35" /> -->
-            <div class="btn-group">
-                <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
-                    aria-expanded="false">
-                    <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/64623a33850498.56ba69ac2a6f7.png"
-                        class="rounded" width="35" />
-                </button>
-                <div class="dropdown-menu dropdown-menu-right account-nav">
-
-                    <button class="dropdown-item py-2" type="button">
-                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/64623a33850498.56ba69ac2a6f7.png"
-                            class="rounded" width="35" /> <span class="px-3">
-                            <a href="#" class="d-inline-block">Mattis</a>
-                        </span></button>
-                    <button class="dropdown-item py-1" type="button"> <img
-                            src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/64623a33850498.56ba69ac2a6f7.png"
-                            class="rounded" width="35" /><span class="px-3">
-                            <a href="#" class="d-inline-block">John</a>
-                        </span></button>
-                    <button class="dropdown-item py-1" type="button">
-                        <a href="./profile.html" class="d-inline-block">Manage Profiles</a>
-                    </button>
-                    <div class="dropdown-divider"></div>
-                    <button class="dropdown-item py-1" type="button">
-                        <a href="#" class="d-inline-block">Children</a>
-                    </button>
-                    <div class="dropdown-divider"></div>
-                    <button class="dropdown-item py-1" type="button">
-                        <a href="./account.html" class="d-inline-block">Account</a>
-                    </button>
-                    <button class="dropdown-item py-1" type="button">
-                        <a href="#" class="d-inline-block">Help Center</a>
-                    </button>
-                    <button class="dropdown-item py-1" type="button">
-                        <a href="#" class="d-inline-block pr-5">Sing out of Netflix</a>
-                    </button>
-                </div>
+        <div class="container-fluid">
+            <div class="d-inline-block px-3 py-2">
+                <img src="./01_Netflix_Logo/03_Netflix_Logo_PMS/Netflix_Logo_PMS.png" width="100" height="60"
+                    class="img-fluid" alt="">
             </div>
 
-        </div>
+            <div class="collapse navbar-collapse d-none d-lg-block" id="navbarSupportedContent">
 
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Series</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Films</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">New & Popular</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">My List</a>
+                    </li>
+                </ul>
+                <form class="form-inline my-2 my-lg-0">
 
-        <ul class="navbar-nav d-lg-none d-block d-lg-none">
-            <li class="nav-item">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">
-                    Browse
-                </a>
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="#">Home</a>
-                    <a class="dropdown-item" href="#">Series</a>
-                    <div class="dropdown-item">Films</div>
-                    <a class="dropdown-item" href="#">New & Popular</a>
-                    <a class="dropdown-item" href="#">My List</a>
+                    <input class="search expandright" id="searchright" type="search" name="q" placeholder="Search">
+                    <label class="button searchbutton px-3" for="searchright"><svg xmlns="http://www.w3.org/2000/svg"
+                            width="15" height="15" fill="white" class="my-2 my-sm-0 mr-sm-2" aria-label="Search"
+                            viewBox="0 0 16 16">
+                            <path
+                                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+                        </svg></label>
+                </form>
+
+                <div class="btn-group">
+                    <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+                        aria-expanded="false">
+                        <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/64623a33850498.56ba69ac2a6f7.png"
+                            class="rounded" width="35" />
+                    </button>
+                    <div class="dropdown-menu dropdown-menu-right account-nav">
+
+                        <button class="dropdown-item py-2" type="button">
+                            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/64623a33850498.56ba69ac2a6f7.png"
+                                class="rounded" width="35" /> <span class="px-3">
+                                <a href="#" class="d-inline-block">Mattis</a>
+                            </span></button>
+                        <button class="dropdown-item py-1" type="button"> <img
+                                src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/64623a33850498.56ba69ac2a6f7.png"
+                                class="rounded" width="35" /><span class="px-3">
+                                <a href="#" class="d-inline-block">John</a>
+                            </span></button>
+                        <button class="dropdown-item py-1" type="button">
+                            <a href="./profile.html" class="d-inline-block">Manage Profiles</a>
+                        </button>
+                        <div class="dropdown-divider"></div>
+                        <button class="dropdown-item py-1" type="button">
+                            <a href="#" class="d-inline-block">Children</a>
+                        </button>
+                        <div class="dropdown-divider"></div>
+                        <button class="dropdown-item py-1" type="button">
+                            <a href="./account.html" class="d-inline-block">Account</a>
+                        </button>
+                        <button class="dropdown-item py-1" type="button">
+                            <a href="#" class="d-inline-block">Help Center</a>
+                        </button>
+                        <button class="dropdown-item py-1" type="button">
+                            <a href="#" class="d-inline-block pr-5">Sing out of Netflix</a>
+                        </button>
+                    </div>
                 </div>
-            </li>
-        </ul>
+
+            </div>
+
+
+            <ul class="navbar-nav d-lg-none d-block d-lg-none">
+                <li class="nav-item">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Browse
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#">Home</a>
+                        <a class="dropdown-item" href="#">Series</a>
+                        <div class="dropdown-item">Films</div>
+                        <a class="dropdown-item" href="#">New & Popular</a>
+                        <a class="dropdown-item" href="#">My List</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
     </nav>
+    <!-- End Nav-bar -->
+    <!-- Add header section -->
+    <!-- End header section -->
+    <!-- MOvie Container -->
+    <div class="container-fluid pl-5">
+        <!-- Genres -->
+        <div class="row py-4 pb-5">
+            <div class="col-6">
+                <h1 class="d-inline-block pr-5">Series</h1>
+                <div class="dropdown d-inline-block pl-5 ">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenu2"
+                        data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="vertical-align: 10px;">
+                        Genres
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <button class="dropdown-item" type="button"> <span>Action</span></button>
+                        <button class="dropdown-item" type="button"> <span>Si-Fi</span></button>
+                        <button class="dropdown-item" type="button"><span>Drama</span></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- First row of moves -->
+        <div class="row">
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                    <img src="./moives/1.jpeg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                    <img src="./moives/1.jpeg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                    <img src="./moives/1.jpeg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                    <img src="./moives/1.jpeg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                    <img src="./moives/1.jpeg" class="card-img-top" alt="...">
+                </div>
+            </div>
+            <!--  -->
+            <div class="col-6 col-sm-6 col-md-4 col-lg-2">
+                <div class="card">
+                    <img src="./moives/1.jpeg" class="card-img-top" alt="...">
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End MOvie Container -->
 
 
+    <!-- Js  -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
         integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
         crossorigin="anonymous"></script>
