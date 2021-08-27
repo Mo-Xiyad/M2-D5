@@ -1,18 +1,117 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css"
+    integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
   <link rel="stylesheet" href="./account.css">
+  <!-- Bootstrap CSS -->
   <title>Account Settings</title>
 </head>
+
 <body>
 
   <!-- will use Zee's navbar, mine here just for now  -->
+  <!-- Nav-bar Start -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-nav">
+    <div class="container-fluid">
+      <div class="d-inline-block px-2 py-2">
+        <img src="./01_Netflix_Logo/03_Netflix_Logo_PMS/Netflix_Logo_PMS.png" width="100" height="60" class="img-fluid"
+          alt="">
+      </div>
 
-  
+      <div class="collapse navbar-collapse d-none d-lg-block" id="navbarSupportedContent">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Series</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Films</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">New & Popular</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">My List</a>
+          </li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+
+          <input class="search expandright" id="searchright" type="search" name="q" placeholder="Search">
+          <label class="button searchbutton px-3" for="searchright"><svg xmlns="http://www.w3.org/2000/svg" width="15"
+              height="15" fill="white" class="my-2 my-sm-0 mr-sm-2" aria-label="Search" viewBox="0 0 16 16">
+              <path
+                d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z" />
+            </svg></label>
+        </form>
+
+        <div class="btn-group">
+          <p class="px-3 pt-3 d-inline-block text-white">KIDS</p>
+          <button type="button" class="btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true"
+            aria-expanded="false">
+            <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/64623a33850498.56ba69ac2a6f7.png"
+              class="rounded" width="35" />
+          </button>
+          <div class="dropdown-menu dropdown-menu-right account-nav">
+
+            <button class="dropdown-item py-2" type="button">
+              <img src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/64623a33850498.56ba69ac2a6f7.png"
+                class="rounded" width="35" />
+              <a href="#" class="d-inline-block px-3">Mattis</a>
+            </button>
+            <button class="dropdown-item py-1" type="button"> <img
+                src="https://mir-s3-cdn-cf.behance.net/project_modules/disp/64623a33850498.56ba69ac2a6f7.png"
+                class="rounded" width="35" />
+              <a href="#" class="d-inline-block px-3">John</a>
+            </button>
+            <button class="dropdown-item py-1 pt-2" type="button">
+              <a href="./profile.html" class="d-inline-block">Manage Profiles</a>
+            </button>
+            <div class="dropdown-divider"></div>
+            <button class="dropdown-item py-1" type="button">
+              <a href="#" class="d-inline-block">Children</a>
+            </button>
+            <div class="dropdown-divider"></div>
+            <button class="dropdown-item py-1" type="button">
+              <a href="./account.html" class="d-inline-block">Account</a>
+            </button>
+            <button class="dropdown-item py-1" type="button">
+              <a href="#" class="d-inline-block">Help Center</a>
+            </button>
+            <button class="dropdown-item py-1" type="button">
+              <a href="#" class="d-inline-block pr-5">Sing out of Netflix</a>
+            </button>
+          </div>
+        </div>
+
+      </div>
+
+
+      <ul class="navbar-nav d-lg-none d-block d-lg-none">
+        <li class="nav-item">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+            aria-haspopup="true" aria-expanded="false">
+            Browse
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item" href="#">Home</a>
+            <a class="dropdown-item" href="#">Series</a>
+            <div class="dropdown-item">Films</div>
+            <a class="dropdown-item" href="#">New & Popular</a>
+            <a class="dropdown-item" href="#">My List</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>
+
   <div class="container">
     <h3 class="mt-5 px-0">Account</h3>
     <hr class="border-top-thick">
@@ -27,51 +126,65 @@
         <p class="text-disabled margin-btm-6px">Password: ********</p>
         <p class="text-disabled margin-btm-6px">Phone: 321 874 0835</p>
       </div>
-      
+
       <div class="col-6 col-md-5 col-lg-3 offset-lg-2 mt-3 mt-md-2 mt-lg-0">
         <p class="float-right d-block margin-btm-6px"><a href="#" class="text-primary">Change account email</a></p>
         <p class="float-right d-block margin-btm-6px"><a href="#" class="text-primary">Change password</a></p>
-        <p class="float-right d-block margin-btm-6px"><a href="#" class="text-primary float-right">Change phone number</a></p>
+        <p class="float-right d-block margin-btm-6px"><a href="#" class="text-primary float-right">Change phone
+            number</a></p>
       </div>
 
 
 
-      <div class="offset-col-0 col-7 offset-sm-0 col-sm-7 offset-md-3 col-lg-6 col-xl-5 col-md-4  mt-3 mt-md-2 mt-lg-3  border-top-thick border-btm-thick"> <!-- offset-md-3 -->
+      <div
+        class="offset-col-0 col-7 offset-sm-0 col-sm-7 offset-md-3 col-lg-6 col-xl-5 col-md-4  mt-3 mt-md-2 mt-lg-3  border-top-thick border-btm-thick">
+        <!-- offset-md-3 -->
         <p class="margin-btm-6px"><b>admin@strive.school</b></p>
       </div>
-      
+
       <div class="col-5 col-md-5 col-lg-3 col-xl-4  mt-3 mt-md-2 mt-lg-3   border-top-thick border-btm-thick">
         <p class="float-right d-block margin-btm-6px"><a href="#" class="text-primary">Update payment info</a></p>
-        <p class="float-right d-block margin-btm-6px"><a href="#" class="text-primary float-right">Billing details</a></p>
+        <p class="float-right d-block margin-btm-6px"><a href="#" class="text-primary float-right">Billing details</a>
+        </p>
       </div>
 
 
 
-      <div class="col-5  col-lg-4 col-xl-4  mt-3 mt-md-2 mt-lg-3  border-top-thick  offset-7 offset-lg-8 offset-xl-8 mb-5">
-        <p class="float-right d-block margin-btm-6px"><a href="#" class="text-primary">Redeem gift card or promo card</a></p>
-        <p class="float-right d-block margin-btm-6px"><a href="#" class="text-primary float-right">Where to buy gift cards</a></p>
+      <div
+        class="col-5  col-lg-4 col-xl-4  mt-3 mt-md-2 mt-lg-3  border-top-thick  offset-7 offset-lg-8 offset-xl-8 mb-5">
+        <p class="float-right d-block margin-btm-6px"><a href="#" class="text-primary">Redeem gift card or promo
+            card</a></p>
+        <p class="float-right d-block margin-btm-6px"><a href="#" class="text-primary float-right">Where to buy gift
+            cards</a></p>
       </div>
-      </div>
-
-
-
-      <div class="row border-top-thick pd-2">
-        <div class=" col-12 col-md-3 title p-8">
-          PLAN DETAILS
-        </div>
-  
-        <div class="col-6 col-md-4 mt-3 mt-md-2 mt-lg-0">
-          <p class="margin-btm-6px"><b>Premium</b></p>
-        </div>
-        
-        <div class="col-6 col-md-5 col-lg-3 offset-lg-2 mt-3 mt-md-2 mt-lg-0">
-          <p class="float-right d-block margin-btm-6px"><a href="#" class="text-primary">Change plan</a></p>
-        </div>
-        </div>
     </div>
+
+
+
+    <div class="row border-top-thick pd-2">
+      <div class=" col-12 col-md-3 title p-8">
+        PLAN DETAILS
+      </div>
+
+      <div class="col-6 col-md-4 mt-3 mt-md-2 mt-lg-0">
+        <p class="margin-btm-6px"><b>Premium</b></p>
+      </div>
+
+      <div class="col-6 col-md-5 col-lg-3 offset-lg-2 mt-3 mt-md-2 mt-lg-0">
+        <p class="float-right d-block margin-btm-6px"><a href="#" class="text-primary">Change plan</a></p>
+      </div>
+    </div>
+  </div>
   </div>
 
 
-  
+  <!-- Js  -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
