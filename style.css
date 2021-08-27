@@ -1,6 +1,6 @@
 body {
-    background-color: black;
-    color: aliceblue;
+    background-color: #141414;
+    color: #fff;
 }
 
 #netflixLogo {
@@ -10,7 +10,7 @@ body {
 
 .container {
     padding-top: 100px;
-    max-width: 50%;
+    max-width: 40%;
     height: 100%;
 }
 
@@ -21,7 +21,7 @@ h1 {
 }
 
 #profilePic {
-    width: 100%;
+    width: 125px;
     border-radius: 5px;
 }
 
@@ -32,10 +32,17 @@ hr {
 #languages {
     height: 30px;
     width: 100%;
+    position: absolute;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    border: 1px solid white;
 }
 
 #nameInput {
     width: 100%;
+    background-color: gray;
+    color: white;
 }
 
 #languageTitle {
@@ -48,8 +55,10 @@ h6 {
 
 #maturityButton {
     color: white;
-    background-color: darkgray;
+    background-color: rgba(169, 169, 169, 0.356);
     width: 250px;
+    border: none;
+    border-radius: 2px;
 }
 
 #editButton {
@@ -57,6 +66,12 @@ h6 {
     border: 1px solid gray;
     color: gray;
     width: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+
+#checkbox {
+    background-color: gray;
 }
 
 #checkboxText {
@@ -69,6 +84,7 @@ h6 {
     color: gray;
     width: 100%;
     font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
 }
 
 #lightButton {
@@ -77,4 +93,20 @@ h6 {
     font-family: Arial, Helvetica, sans-serif;
     width: 100%;
     border: none;
+    letter-spacing: 3px;
+}
+
+#languageLabel {
+    position: absolute;
+    bottom: 30px;
+}
+
+
+
+
+
+
+@media screen and (min-width: 841px) and (max-width: 1280px) and (orientation: landscape)
+body, html {
+    font-size: .85vw;
 }
