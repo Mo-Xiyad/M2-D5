@@ -9,6 +9,7 @@ html,body{
 }
 .bg-nav {
     background-color: rgb(20, 20, 20);
+    /* background-color: rgb(5, 5, 5); */
 }
 .drop-nav{
     background-color: rgba(0,0,0,.9);
@@ -135,4 +136,12 @@ div button.dropdown-item span{
 }
 div button.dropdown-item span:hover{
     border-bottom: 1px solid white;
+}
+.card{
+    border:none;
+}
+.card:hover{
+    border: 1px solid white;
+    cursor: pointer;
+    /* margin-bottom: 5px; */
 }
